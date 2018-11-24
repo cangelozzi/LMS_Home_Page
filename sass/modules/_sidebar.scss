@@ -1,0 +1,51 @@
+.sideHead {
+  background-color: $bg_admin_color;
+  color: #ffffff;
+}
+
+.sNav {
+  background-color: $bg_sidebar_color;
+}
+
+.sidebarC {
+  background-color: #505050;
+  color: white;
+  position: relative;
+  header {
+    position: relative;
+    background-color: #690800;
+    height: 110px;
+    font-size: 1.25rem;
+    margin: 0 -15px;
+    p {
+      display: inline;
+      padding-left: 10px;
+    }
+  }
+}
+
+.sNav {
+  font-size: 1.45rem;
+  
+   ul {
+    margin: 5px -15px 0;
+    
+    li {
+      margin-top: 13px;
+      padding: 12px 0 12px 14%;
+      
+      &:hover {
+        background-color: #333;
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+  
+  i, span {
+   margin-right: 10px;
+  }
+}
+
+
+
